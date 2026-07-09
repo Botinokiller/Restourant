@@ -4,8 +4,11 @@
 
 
 .navbar{
-    background: black;
 
+    &__container{
+        background-color: black;
+    }
+    
 
     &__logo{
         font-family: var(--font-family);
@@ -17,7 +20,6 @@
         text-align: center;
         color: var(--ffffff);
     }
-
     &__item{
         font-family: var(--second-family);
         font-weight: 400;
@@ -26,7 +28,6 @@
         letter-spacing: 0.04em;
         color: var(--ffffff);
     }
-
     &__login{
         font-family: var(--second-family);
         font-weight: 600;
@@ -36,7 +37,6 @@
         text-transform: capitalize;
         color: var(--ffffff);
     }
-
     &__book{
         font-family: var(--second-family);
         font-weight: 600;
@@ -46,9 +46,8 @@
         text-transform: capitalize;
         color: var(--ffffff);
     }
-
     &__contacts{
-        
+
     }
 
 
