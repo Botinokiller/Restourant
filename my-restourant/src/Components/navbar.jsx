@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/_navbar.scss'
-export default function navbar() {
+
+export default function navbar({line}) {
   return (
     <navbar className='navbar'>
       <div className='navbar__container flex items-center justify-between px-12 py-6'>
@@ -17,9 +18,9 @@ export default function navbar() {
           </ul>
         </div>
         
-        <div className='navbar__contacts flex gap-7'>
+        <div className='navbar__contacts flex items-center gap-7'>
           <a href="" className='navbar__login'>Log in/Registration</a>
-          <div className='navbar__divider'><img src={line} alt="" /></div>
+          <div className='navbar__divider'><img src={line} alt=""/></div>
           <a href="" className='navbar__book'>Book Table</a>
         </div>
 
