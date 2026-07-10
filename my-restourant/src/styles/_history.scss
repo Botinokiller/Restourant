@@ -1,3 +1,8 @@
+@use 'variables' as *;
+@use 'fonts' as *;
+@use 'breakpoints' as *;
+
+
 .history{
 
     &__container{
@@ -12,6 +17,8 @@
         background: url('../assets/icons/history__g.svg');
         background-repeat: no-repeat;
         background-position: center;
+        background-size:50vh;
+        width: 100%;
         // background-size: 350px;
     }
 

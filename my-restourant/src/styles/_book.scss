@@ -1,0 +1,60 @@
+.book{
+    background: #0c0b08;
+
+
+    &__text{
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 130%;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        color: var(--ffffff);
+        text-align: center;
+    }
+
+    &__title{
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 130%;
+        letter-spacing: 0.03em;
+        text-transform: capitalize;
+        text-align: center;
+        color: #dcca87;
+    }
+
+
+    &__btn{
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        color: #0c0c0c;
+        background: #dcca87;
+    }
+
+
+    &__select{
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        text-align: center;
+        color: #aaa;
+    }
+
+    &__person{
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        text-align: center;
+        color: #aaa;
+    }
+}

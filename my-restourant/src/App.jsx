@@ -8,7 +8,7 @@ import Header__img from './assets/imgs/header__img.jpg'
 import History__spoon from './assets/icons/history__spoon.svg'
 import History__spoon1 from './assets/icons/history__spoon-2.svg'
 import History__knife from './assets/icons/history__knife.svg'
-
+import Book from './Components/book'
 
 function App() {
 
@@ -16,7 +16,8 @@ function App() {
     <>
     {/* <Navbar line={line}/> */}
     {/* <Header spoon={header__spoon} header={Header__img}/> */}
-    <History spoon={History__spoon} spoon1={History__spoon1} knife={History__knife}/>
+    {/* <History spoon={History__spoon} spoon1={History__spoon1} knife={History__knife}/> */}
+    <Book spoon={History__spoon1}/>
 
     </>
   )
