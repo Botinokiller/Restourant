@@ -1,0 +1,77 @@
+.history{
+
+    &__container{
+        background: url('../assets/imgs/history__background.jpg');
+    }
+
+    &__container-1{
+        background: url('../assets/icons/history__opacity.svg');
+    }
+
+    &__container-2{
+        background: url('../assets/icons/history__g.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        // background-size: 350px;
+    }
+
+    &__title-1{
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 130%;
+        letter-spacing: 0.03em;
+        text-transform: capitalize;
+        text-align: right;
+        color: #dcca87;
+    }
+    &__text-1{
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        text-align: right;
+        color: #aaa;
+    }
+
+    &__btn-1{
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        color: #0c0c0c;
+        background: #dcca87;
+    }
+
+    &__title{
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 130%;
+        letter-spacing: 0.03em;
+        text-transform: capitalize;
+        color: #dcca87;
+    }
+
+    &__text{
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        color: #aaa;
+    }
+
+    &__btn{
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        color: #0c0c0c;
+        background: #dcca87;
+    }
+
+}

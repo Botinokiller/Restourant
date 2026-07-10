@@ -18,7 +18,7 @@ export default function navbar({line}) {
           </ul>
         </div>
         
-        <div className='navbar__contacts flex items-center gap-7'>
+        <div className='navbar__contacts flex items-center gap-5'>
           <a href="" className='navbar__login'>Log in/Registration</a>
           <div className='navbar__divider'><img src={line} alt=""/></div>
           <a href="" className='navbar__book'>Book Table</a>

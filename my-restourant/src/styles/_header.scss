@@ -1,0 +1,102 @@
+.header{
+    background-color: black;
+
+    &__container{
+        display: flex;
+    }
+
+    &__sidetext {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    transform: rotate(deg);
+    }
+    &__sidetext span{
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+    }
+
+    &__toptext{
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 130%;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        color: var(--ffffff);
+    }
+    &__title{
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 90px;
+        line-height: 130%;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        color: #dcca87;
+    }
+    &__text{
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        color: #aaa;
+    }
+
+    &__button{
+       
+    }
+
+    &__btn{
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        color: #0c0b08;
+        background: #dcca87;
+    }
+
+    &__img{
+
+    }
+
+    &__nav{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+
+
+    &-slider{
+        // font-family: var(--font-family);
+        // font-weight: 600;
+        // font-size: 16px;
+        // line-height: 175%;
+        // letter-spacing: 0.04em;
+        // text-transform: capitalize;
+        // color: #f5efdb;
+        border: none;
+        background: transparent;
+        color: #777;
+        cursor: pointer;
+        font-size: 14px;
+        transition: 0.3s;
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        color: var(--ffffff);
+    }
+    &-slider:hover{
+        color: #dcca87;
+    }
+    &-slider:hover::after{
+        color: #dcca87;
+    }
+
+}
