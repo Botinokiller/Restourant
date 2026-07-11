@@ -1,0 +1,30 @@
+@use 'variables' as *;
+@use 'fonts' as *;
+@use 'breakpoints' as *;
+
+
+.menu{
+    background: url(../assets/imgs/menu__background.jpg);
+
+    &__container{
+        background: #0c0c0c;
+        opacity: 0.4;
+    }
+
+    &__btn{
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 130%;
+        letter-spacing: 0.03em;
+        text-transform: capitalize;
+        color: var(--ffffff);
+        transition: color 0.3s ease;
+
+        &:hover{
+            border-bottom: 1px solide white;
+        }
+    }
+
+
+}
