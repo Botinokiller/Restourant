@@ -1,6 +1,12 @@
+@use 'variables' as *;
+@use 'fonts' as *;
+@use 'breakpoints' as *;
+
 .book{
     background: #0c0b08;
 
+    &__container{
+    }
 
     &__text{
         font-family: var(--font-family);
@@ -35,7 +41,6 @@
         background: #dcca87;
     }
 
-
     &__select{
         font-family: var(--font-family);
         font-weight: 600;
@@ -47,14 +52,63 @@
         color: #aaa;
     }
 
-    &__person{
-        font-family: var(--font-family);
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 175%;
-        letter-spacing: 0.04em;
-        text-transform: capitalize;
-        text-align: center;
-        color: #aaa;
+    &__block{
+        border: 1px solid rgba(220, 202, 135, 0.2);
+        box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+        background: #0c0c0c;
     }
+
+    &__field{
+        border: 100px solid #f5efdb;
+    }
+}
+
+
+
+.booking{
+    &__select,
+input[type="date"].booking__select {
+  width: 100%;
+  padding: 14px 100px;
+  background: transparent;
+  border: 1px solid #f5efdb;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #aaa;
+//   appearance: none;
+//   -webkit-appearance:chevron;
+  color: rgba(255, 255, 255, 0.6);
+
+
+  &::-webkit-calendar-picker-indicator {
+    filter: invert(1);    
+    cursor: pointer;
+    opacity: 0.6;
+    
+  }
+  
+
+  &:focus {
+    outline: none;
+    border-color: #c9a84c;
+    
+    
+  }
+
+  option {
+    background: #1a1a1a;
+    color: #fff;
+    
+  }
+}
+
+
+
 }

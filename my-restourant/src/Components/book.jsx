@@ -1,20 +1,21 @@
 import React from 'react'
 import '../styles/_book.scss'
 
+
+
 export default function Book({spoon}) {
   return (
-    <section className='book'>
-        <div className='book__container'>
-            <div className='book__block flex flex-col items-center '>
+    <section className='book w-full'>
+        <div className='book__container w-full p-30'>
+            <div className='book__block  w-full mx-auto flex flex-col items-center p-10 '>
                 <div className='book__script'>
                     <p className='book__text mb-2'>Reservations</p>
                     <span className='book__spoon w-full flex justify-center mb-2'><img src={spoon} alt="" /></span>
                     <h2 className='book__title mb-8'>Book a Table</h2>
                 </div>
-                <div className='book__filler flex'>
-
+                <div className='book__filler flex mb-10 gap-8'>
                 <div className="booking__field">
-                <select className="booking__select px-6 py-4">
+                <select className="booking__select px-6 py-3">
                     <option value="" className='booking__person'>1 Person</option>
                     <option value="" className='booking__person'>2 People</option>
                     <option value="" className='booking__person'>3 People</option>
@@ -27,16 +28,16 @@ export default function Book({spoon}) {
                     <option value="" className='booking__person'>10+ People</option>
                 </select>
                 </div>
-                <div className="booking__field">
+                <div className="booking__field ">
                 <input
                     type="date"
-                    className="booking__select"
+                    className="booking__select px-6 py-3"
                     min={new Date().toISOString().split('T')[0]}        
                     max="2030-12-31"                                    
                 />
                 </div>
                 <div className="booking__field">
-                <select className="booking__select">
+                <select className="booking__select px-6 py-3">
                     <option value="">12:00 AM</option>
                     <option value="">12:30 AM</option>
                     <option value="">01:00 AM</option>
