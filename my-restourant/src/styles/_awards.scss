@@ -1,0 +1,58 @@
+.awards{
+
+    &__container{
+        background: url('../assets/imgs/history__background.jpg');
+    }
+    &__overlay{
+        background: url('../assets/icons/history__opacity.svg');
+    }
+
+
+
+
+
+
+
+
+
+    &__subtitle{
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 130%;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        color: var(--ffffff);
+    }
+
+    &__title{
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 130%;
+        letter-spacing: 0.03em;
+        text-transform: capitalize;
+        color: #dcca87;
+    }
+
+    &__script{
+
+        &-title{
+            font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 23px;
+            line-height: 130%;
+            letter-spacing: 0.04em;
+            text-transform: capitalize;
+            color: #dcca87;
+        }
+        &-text{
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        color: #aaa;
+        }
+    }
+}
