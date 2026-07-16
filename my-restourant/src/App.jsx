@@ -38,6 +38,12 @@ import Gallery__img3 from './assets/imgs/gallery__img3.jpg';
 import Gallery__img4 from './assets/imgs/gallery__img4.jpg';
 import Gallery__img5 from './assets/imgs/gallery__img5.jpg';
 import News from './Components/newsletter'
+import Footer from './Components/footer.jsx';
+import Facebook from './assets/icons/facebook.svg'
+import Insta from './assets/icons/insta.svg'
+import Twitter from './assets/icons/twitter.svg'
+
+
 
 
 function App() {
@@ -47,15 +53,16 @@ function App() {
     {/* <Navbar line={line}/> */}
     {/* <Header spoon={header__spoon} header={Header__img}/> */}
     {/* <History spoon={History__spoon} spoon1={History__spoon1} knife={History__knife}/> */}
-    <Book spoon={History__spoon1}/>
-    <Menu />
-    <Special middle={special__middle} spoon={History__spoon1}/>
-    <Chief chiefs={chief__img} spoon={History__spoon1} dot={dots}/>
-    <Testimony spoon={History__spoon1} img1={test__img1} img2={test__img2} img3={test__img3} img4={test__img4} dot={dots}/>
-    <Awards spoon={History__spoon1} second={Secondplace} first={Firstplace} second={Secondplace} third={Thirdplace} fifth={Fifthplace} food={awards__food}G={g} />
-    <Blogs spoon={History__spoon1} img1={Blogs1} img2={Blogs2} img3={Blogs3}/>
-    <Gallery spoon={History__spoon1} img1={Gallery__img1} img2={Gallery__img2} img3={Gallery__img3} img4={Gallery__img4} img5={Gallery__img5}/>
-    <News spoon={History__spoon1}/>
+    {/* <Book spoon={History__spoon1}/> */}
+    {/* <Menu /> */}
+    {/* <Special middle={special__middle} spoon={History__spoon1}/> */}
+    {/* <Chief chiefs={chief__img} spoon={History__spoon1} dot={dots}/> */}
+    {/* <Testimony spoon={History__spoon1} img1={test__img1} img2={test__img2} img3={test__img3} img4={test__img4} dot={dots}/> */}
+    {/* <Awards spoon={History__spoon1} second={Secondplace} first={Firstplace} second={Secondplace} third={Thirdplace} fifth={Fifthplace} food={awards__food}G={g} /> */}
+    {/* <Blogs spoon={History__spoon1} img1={Blogs1} img2={Blogs2} img3={Blogs3}/> */}
+    {/* <Gallery spoon={History__spoon1} img1={Gallery__img1} img2={Gallery__img2} img3={Gallery__img3} img4={Gallery__img4} img5={Gallery__img5}/> */}
+    {/* <News spoon={History__spoon1}/> */}
+    <Footer  spoon={History__spoon1} face={Facebook} insta={Insta} twitter={Twitter} />
     </>
   )
 }

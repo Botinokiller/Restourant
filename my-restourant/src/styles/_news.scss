@@ -45,9 +45,39 @@
         background: #0c0c0c;
     }
 
-    &__input{
-        border: 1px solid #f5efdb;
+
+    &__button{
+        background: #dcca87;
+        border: 1px solid #dcca87;
+        padding: 8px 32px;
         font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        color: #0c0c0c;
     }
+
+    &__form{
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        text-align: center;
+        color: #aaa;
+    }
+
+    &__field{
+        border: 1px solid #f5efdb;
+
+    }
+
+
+
+
+
+
 }
 
