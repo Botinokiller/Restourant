@@ -1,7 +1,10 @@
-@use '/src/styles/BlogPage/breakpoints' as *;
-@use '/src/styles/BlogPage/fonts' as *;
-@use '/src/styles/BlogPage/variables' as *;
+// @use '/src/styles/BlogPage/breakpoints' as *;
+// @use '/src/styles/BlogPage/fonts' as *;
+// @use '/src/styles/BlogPage/variables' as *;
 
+@use 'variables' as *;
+@use 'fonts' as *;
+@use 'breakpoints' as *;
 
 
 
@@ -12,7 +15,11 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 90vh;
+    min-height: 85vh;
+    }
+
+    &__overlay{
+        background: url('/src/assets/icons/history__opacity.svg');
 
     }
 
