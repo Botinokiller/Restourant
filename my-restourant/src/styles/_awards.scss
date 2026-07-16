@@ -1,19 +1,14 @@
-.awards{
+@use 'variables' as *;
+@use 'fonts' as *;
+@use 'breakpoints' as *;
 
+.awards{
     &__container{
         background: url('../assets/imgs/history__background.jpg');
     }
     &__overlay{
         background: url('../assets/icons/history__opacity.svg');
     }
-
-
-
-
-
-
-
-
 
     &__subtitle{
         font-family: var(--font-family);

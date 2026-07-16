@@ -1,0 +1,40 @@
+@use '/src/styles/BlogPage/breakpoints' as *;
+@use '/src/styles/BlogPage/fonts' as *;
+@use '/src/styles/BlogPage/variables' as *;
+
+
+
+
+.blogPage{
+    
+    &__container{
+    background: url('/src/assets/imgs/blog__background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+
+    }
+
+
+    &__Title{
+        font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 90px;
+        line-height: 130%;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        color: #dcca87;
+    }
+
+    &__text{
+        font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 130%;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        color: var(--ffffff);
+    }
+    
+}
