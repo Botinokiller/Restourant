@@ -1,0 +1,53 @@
+@use 'variables' as *;
+@use 'fonts' as *;
+@use 'breakpoints' as *;
+
+.news{
+    background: black;
+
+    padding: 64px 252px;
+
+
+
+    &__script{
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 130%;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        color: var(--ffffff);
+    }
+
+
+    &__title{
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 130%;
+        letter-spacing: 0.03em;
+        text-transform: capitalize;
+        color: #dcca87;
+    }
+
+    &__subtext{
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        color: var(--ffffff);
+    }
+
+    &__container{
+        border: 1px solid rgba(220, 202, 135, 0.2);
+        box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+        background: #0c0c0c;
+    }
+
+    &__input{
+        border: 1px solid #f5efdb;
+        font-family: var(--font-family);
+    }
+}
+

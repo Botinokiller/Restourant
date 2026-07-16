@@ -88,13 +88,10 @@ export default function Book({spoon}) {
                     <option value="">11:30 PM</option>
                 </select>
                 </div>
-
                 </div>
                 <div className='book__button'>
                     <button className='book__btn px-7 py-2 '>Book More</button>
-
                 </div>
-
             </div>
         </div>
     </section>
