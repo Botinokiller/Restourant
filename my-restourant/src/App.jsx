@@ -58,8 +58,8 @@ function App() {
     {/* <Blogs spoon={History__spoon1} img1={Blogs1} img2={Blogs2} img3={Blogs3}/> */}
     {/* <Gallery spoon={History__spoon1} img1={Gallery__img1} img2={Gallery__img2} img3={Gallery__img3} img4={Gallery__img4} img5={Gallery__img5}/> */}
     {/* <News spoon={History__spoon1}/> */}
-    <BLOGPAGE arrow={Arrow_page}/>
-    <Articles/>
+    {/* <BLOGPAGE arrow={Arrow_page}/> */}
+    {/* <Articles/> */}
     </>
   )
 }
