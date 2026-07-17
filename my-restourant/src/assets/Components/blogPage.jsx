@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/BlogPage/_blogPage.scss'
 
-
 export default function blogPage({arrow}) {
   return (
     <section className='blogPage'>
