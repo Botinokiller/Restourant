@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/BlogPage/_blogPage.scss'
+import 
 
 export default function blogPage({arrow}) {
   return (
