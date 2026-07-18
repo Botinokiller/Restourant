@@ -1,3 +1,7 @@
+@use 'variables' as *;
+@use 'fonts' as *;
+@use 'breakpoints' as *;
+
 .gallery{
     &__layout{
         background: url('../assets/imgs/history__background.jpg');
