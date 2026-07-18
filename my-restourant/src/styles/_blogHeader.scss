@@ -1,0 +1,14 @@
+@use 'variables' as *;
+@use 'fonts' as *;
+@use 'breakpoints' as *;
+
+
+
+
+.header{
+
+    &__container{
+        background: url('../assets/imgs/Blog__header.jpg');
+    }
+
+}
