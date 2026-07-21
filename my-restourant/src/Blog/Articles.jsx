@@ -5,7 +5,7 @@ import '../styles/_articles.scss'
 export default function Articles({img1,img2,img3,img4,search,facebook,insta,twitter,right_pic}) {
   return (
     <section className='articles'>
-        <div className="articles__container flex items-center px-30">
+        <div className="articles__container flex px-30 gap-15 pt-20">
             <div className="articles__blocks-1  px-0 py-0 ">
                 <div className='articles__block-1__1 mb-16'>
 
@@ -68,13 +68,14 @@ export default function Articles({img1,img2,img3,img4,search,facebook,insta,twit
 
                 </div>
 
-                <button className='articles__block-btn'>View More</button>
-
+                <div className='articles__button flex justify-center'>
+                    <button className='articles__block-btn flex justify-center'>View More</button>
+                </div>
 
             </div>
 
 
-            <div className="articles__blocks-2 flex flex-col gap-8 py-10 px-6">
+            <div className="articles__blocks-2 flex flex-col gap-8 py-0 px-6">
 
                 <div className="articles__search">
                     <h2 className="articles__search-title mb-4">Search Page</h2>

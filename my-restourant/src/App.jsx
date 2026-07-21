@@ -39,15 +39,15 @@ import Gallery__img3 from './assets/imgs/gallery__img3.jpg';
 import Gallery__img4 from './assets/imgs/gallery__img4.jpg';
 import Gallery__img5 from './assets/imgs/gallery__img5.jpg';
 import News from './Components/newsletter'
+import BlogHeader from './Blog/blogHeader.jsx'
 import Footer from './Components/footer.jsx';
 import Facebook from './assets/icons/facebook.svg'
 import insta from './assets/icons/insta.svg'
 import Twitter from './assets/icons/twitter.svg'
-import BlogHeader from './Components/blogHeader.jsx'
 import Arrow from './assets/icons/Blogs__arrow.svg'
-import Articles from './Components/Articles.jsx'
 import search from '../src/assets/icons/articles__search.svg'
 import blog__left from '../src/assets/imgs/Blog__left.jpg'
+import Articles from './Blog/Articles.jsx';
 
 
 function App() {
@@ -65,10 +65,11 @@ function App() {
     {/* <Awards spoon={History__spoon1} second={Secondplace} first={Firstplace} second={Secondplace} third={Thirdplace} fifth={Fifthplace} food={awards__food}G={g} /> */}
     {/* <Blogs spoon={History__spoon1} img1={Blogs1} img2={Blogs2} img3={Blogs3}/> */}
     {/* <Gallery spoon={History__spoon1} img1={Gallery__img1} img2={Gallery__img2} img3={Gallery__img3} img4={Gallery__img4} img5={Gallery__img5}/> */}
-    {/* <News spoon={History__spoon1}/> */}
-    {/* <Footer  spoon={History__spoon1} face={Facebook} insta={Insta} twitter={Twitter} /> */}
+   
     <BlogHeader arrow={Arrow}/>
     <Articles img1={Blogs1} img2={Blogs2} img3={Blogs3} img4={Blogs4} search={search} facebook={Facebook} insta={insta} twitter={Twitter} right_pic={blog__left}/>
+    <News spoon={History__spoon1}/>
+    <Footer spoon={History__spoon1} face={Facebook} insta={insta} twitter={Twitter}/>
     </>
   )
 }
