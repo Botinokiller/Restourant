@@ -3,12 +3,38 @@
 @use 'breakpoints' as *;
 
 
-
-
-.header{
-
+.blogHeader{
     &__container{
         background: url('../assets/imgs/Blog__header.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 84vh;
     }
+
+    &__title{
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 90px;
+        line-height: 130%;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        color: #dcca87;
+    }
+
+    &__text{
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 130%;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        color: var(--ffffff);
+    }
+
+
+
+
+
 
 }

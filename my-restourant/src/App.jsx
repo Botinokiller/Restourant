@@ -31,6 +31,7 @@ import Blogs from './Components/blogs';
 import Blogs1 from './assets/imgs/blogs__img1.jpg'
 import Blogs2 from './assets/imgs/blogs__img2.jpg'
 import Blogs3 from './assets/imgs/blogs__img3.jpg'
+import Blogs4 from './assets/imgs/blogs__img4.jpg'
 import Gallery from './Components/gallery';
 import Gallery__img1 from './assets/imgs/gallery__img1.jpg';
 import Gallery__img2 from './assets/imgs/gallery__img2.jpg';
@@ -40,10 +41,13 @@ import Gallery__img5 from './assets/imgs/gallery__img5.jpg';
 import News from './Components/newsletter'
 import Footer from './Components/footer.jsx';
 import Facebook from './assets/icons/facebook.svg'
-import Insta from './assets/icons/insta.svg'
+import insta from './assets/icons/insta.svg'
 import Twitter from './assets/icons/twitter.svg'
 import BlogHeader from './Components/blogHeader.jsx'
 import Arrow from './assets/icons/Blogs__arrow.svg'
+import Articles from './Components/Articles.jsx'
+import search from '../src/assets/icons/articles__search.svg'
+import blog__left from '../src/assets/imgs/Blog__left.jpg'
 
 
 function App() {
@@ -64,6 +68,7 @@ function App() {
     {/* <News spoon={History__spoon1}/> */}
     {/* <Footer  spoon={History__spoon1} face={Facebook} insta={Insta} twitter={Twitter} /> */}
     <BlogHeader arrow={Arrow}/>
+    <Articles img1={Blogs1} img2={Blogs2} img3={Blogs3} img4={Blogs4} search={search} facebook={Facebook} insta={insta} twitter={Twitter} right_pic={blog__left}/>
     </>
   )
 }
