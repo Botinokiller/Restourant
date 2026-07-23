@@ -1,0 +1,60 @@
+@use 'variables' as *;
+@use 'fonts' as *;
+@use 'breakpoints' as *;
+
+
+.comments{
+    background: black;
+
+
+    &__title{
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 130%;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        color: #dcca87;
+    }
+
+    &__name{
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 130%;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        color: var(--ffffff);
+    }
+
+    &__date{
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        color: #aaa;
+    }
+
+
+    &__submit{
+        padding: 8px 32px;
+        background: #dcca87;
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        color: #0c0c0c;
+    }
+
+    &__textarea{
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        color: #aaa;
+    }
+}

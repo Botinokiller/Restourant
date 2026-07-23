@@ -24,6 +24,11 @@ import up from '../assets/icons/blog__up.svg'
 import down from '../assets/icons/blog__down.svg'
 import chat from '../assets/icons/detail__chat.svg'
 import favorite from '../assets/icons/detail__favorite.svg'
+import Comments from '../Blog/Comments.jsx'
+import avatar1 from '../assets/imgs/avatar-1.jpg'
+import avatar2 from '../assets/imgs/avatar-2.jpg'
+import avatar3 from '../assets/imgs/avatar-3.jpg'
+
 
 export default function Home() {
   return (
@@ -35,10 +40,10 @@ export default function Home() {
 
       {/* <Navbar line={line}/> */}
       {/* <BlogHeader arrow={Arrow}/> */}
-      <Articles img1={Blogs1} img2={Blogs2} img3={Blogs3} img4={Blogs4} search={search} facebook={Facebook} insta={insta} twitter={Twitter} right_pic={blog__left}/>
+      {/* <Articles img1={Blogs1} img2={Blogs2} img3={Blogs3} img4={Blogs4} search={search} facebook={Facebook} insta={insta} twitter={Twitter} right_pic={blog__left}/> */}
       {/* <Footer spoon={History__spoon1} face={Facebook} insta={insta} twitter={Twitter}/> */}
-      <Detail background={detail__pic} background2={detail__pic2} up={up} down={down} background3={detail__pic3} chat={chat} favorite={favorite} search={search} right_pic={blog__left} facebook={Facebook} insta={insta} twitter={Twitter}/>
-      
+      {/* <Detail background={detail__pic} background2={detail__pic2} up={up} down={down} background3={detail__pic3} chat={chat} favorite={favorite} search={search} right_pic={blog__left} facebook={Facebook} insta={insta} twitter={Twitter}/> */}
+      <Comments avatar1={avatar1} avatar2={avatar2} avatar3={avatar3} />
     </>
   )
 }

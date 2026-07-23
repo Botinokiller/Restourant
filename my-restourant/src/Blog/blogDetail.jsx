@@ -47,15 +47,15 @@ export default function blogDetail({background,background2,up,down,background3,c
                             </p>
                         </div>
                     </div>
-                    <div className='detail__script-2'>
-                        <div className='detail__box relative p-15'>
-                            <img src={up} alt="" className='detail__box-up absolute' />
+                    <div className='detail__script-2 relative'>
+                        <div className='detail__box  p-15'>
+                            <img src={up} alt="" className='detail__box-up absolute left-6 bottom-28' />
                             <h2 className='detail__box-title'>There is no love sincerer than the love of food.</h2>
-                            <img src={down} alt=""className='detail__box-up absolute' />
+                            <img src={down} alt=""className='detail__box-up absolute right-10 top-30' />
                         </div>
                     </div>
 
-                    <div className='detail__bt-box flex mt-10 mb-10'>
+                    <div className='detail__bt-box flex gap-5 mt-10 mb-10'>
                         <div className='detail__bt-script'>
                             <h2 className='detail__bt-title mb-8'>How to care for your grill</h2>
                             <p className='detail__bt-text mb-8'>
@@ -67,8 +67,8 @@ export default function blogDetail({background,background2,up,down,background3,c
                             <p className='detail__point'><span className='detail__line'></span>Tincidunt pharetra ut lobortis id.</p>
                             <p className='detail__point'><span className='detail__line'></span>Commodo sit libero lacus a egestas penatibus</p>
                         </div>
-                        <div className='detail__img w-full'>
-                            <img src={background3} alt="" />
+                        <div className='detail__imgs w-full'>
+                            <img src={background3} className='detail__img w-full' alt="" />
                         </div>
                     </div>
                     <div className='detail__comments'>

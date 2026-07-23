@@ -238,4 +238,9 @@
         background: #545454;
         border: 1px solid #dcca87 ;
     }
+
+    &__img{
+        background: cover;
+        object-fit: contain;
+    }
 }
