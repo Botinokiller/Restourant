@@ -47,9 +47,9 @@ export default function Comments({ avatar1, avatar2, avatar3 }) {
 
       </div>
 
-      <div className='comments__item comments__item--active flex gap-4   p-4  mt-6'>
-        <div className='comments__avatar aspect-square w-16 sm:w-20 shrink-0'>
-          <img src={avatar3} alt='Jane Cooper' className='comments__avatar-img w-full object-cover rounded-md' />
+      <div className='comments__item comments__item--active flex gap-4 p-4  mt-6'>
+        <div className='comments__avatar  shrink-0'>
+          <img src={avatar3} alt='Jane Cooper' className='comments__avatar-img w-full' />
         </div>
         <div className='comments__body flex-1 min-w-0'>
           <div className='comments__header flex items-start justify-between gap-4'>
