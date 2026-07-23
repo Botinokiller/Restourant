@@ -48,13 +48,13 @@ import Arrow from './assets/icons/Blogs__arrow.svg'
 import search from '../src/assets/icons/articles__search.svg'
 import blog__left from '../src/assets/imgs/Blog__left.jpg'
 import Articles from './Blog/Articles.jsx';
-
+import Home from './Blog/Home.jsx'
 
 function App() {
 
   return (
     <>
-    <Navbar line={line}/>
+    {/* <Navbar line={line}/> */}
     {/* <Header spoon={header__spoon} header={Header__img}/> */}
     {/* <History spoon={History__spoon} spoon1={History__spoon1} knife={History__knife}/> */}
     {/* <Book spoon={History__spoon1}/> */}
@@ -66,10 +66,11 @@ function App() {
     {/* <Blogs spoon={History__spoon1} img1={Blogs1} img2={Blogs2} img3={Blogs3}/> */}
     {/* <Gallery spoon={History__spoon1} img1={Gallery__img1} img2={Gallery__img2} img3={Gallery__img3} img4={Gallery__img4} img5={Gallery__img5}/> */}
    
-    <BlogHeader arrow={Arrow}/>
-    <Articles img1={Blogs1} img2={Blogs2} img3={Blogs3} img4={Blogs4} search={search} facebook={Facebook} insta={insta} twitter={Twitter} right_pic={blog__left}/>
-    <News spoon={History__spoon1}/>
-    <Footer spoon={History__spoon1} face={Facebook} insta={insta} twitter={Twitter}/>
+    {/* <BlogHeader arrow={Arrow}/> */}
+    {/* <Articles img1={Blogs1} img2={Blogs2} img3={Blogs3} img4={Blogs4} search={search} facebook={Facebook} insta={insta} twitter={Twitter} right_pic={blog__left}/> */}
+    {/* <News spoon={History__spoon1}/> */}
+    {/* <Footer spoon={History__spoon1} face={Facebook} insta={insta} twitter={Twitter}/> */}
+    <Home/>
     </>
   )
 }
