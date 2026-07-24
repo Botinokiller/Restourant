@@ -63,6 +63,7 @@ function App() {
     {/* <Gallery spoon={History__spoon1} img1={Gallery__img1} img2={Gallery__img2} img3={Gallery__img3} img4={Gallery__img4} img5={Gallery__img5}/> */}
     {/* <News spoon={History__spoon1}/> */}
     {/* <Footer  spoon={History__spoon1} face={Facebook} insta={Insta} twitter={Twitter} /> */}
+    
     </>
   )
 }
