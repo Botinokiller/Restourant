@@ -1,0 +1,77 @@
+@use 'variables' as *;
+@use 'fonts' as *;
+@use 'breakpoints' as *;
+
+.About-history{
+    background: black;
+
+
+    &__text{
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 130%;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        text-align: center;
+        color: var(--ffffff);
+    }
+
+    &__title{
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 130%;
+        letter-spacing: 0.03em;
+        text-transform: capitalize;
+        text-align: center;
+        color: #dcca87;
+    }
+
+    &__subtitle{
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 130%;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        color: #dcca87;
+    }
+
+    &__subtext{
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        color: #aaa;
+    }
+
+    &__rock{
+        display: flex;
+        align-items: flex-start;
+
+        flex-direction: column;
+    }
+
+    &__rock h2{
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 130%;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        text-align: center;
+        color: #dcca87;
+    }
+
+    &__rock p{
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 130%;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        color: var(--ffffff);
+    }
+}
