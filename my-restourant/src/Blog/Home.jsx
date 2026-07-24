@@ -36,8 +36,8 @@ import rest__logo from '../assets/icons/restourant__logo.svg'
 export default function Home() {
   return (
     <>
-      {/* <Navbar line={line}/> */}
-      {/* <BlogHeader arrow={Arrow}/> */}
+      <Navbar line={line}/>
+      <BlogHeader arrow={Arrow}/>
       {/* <Articles img1={Blogs1} img2={Blogs2} img3={Blogs3} img4={Blogs4} search={search} facebook={Facebook} insta={insta} twitter={Twitter} right_pic={blog__left}/> */}
       {/* <Footer spoon={History__spoon1} face={Facebook} insta={insta} twitter={Twitter}/> */}
       {/* <Navbar line={line}/> */}
