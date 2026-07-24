@@ -49,6 +49,8 @@ import search from '../src/assets/icons/articles__search.svg'
 import blog__left from '../src/assets/imgs/Blog__left.jpg'
 import Articles from './Blog/Articles.jsx';
 import Home from './Blog/Home.jsx'
+import rest__logo from './assets/icons/restourant__logo.svg'
+
 
 function App() {
 

@@ -28,6 +28,9 @@ import Comments from '../Blog/Comments.jsx'
 import avatar1 from '../assets/imgs/avatar-1.jpg'
 import avatar2 from '../assets/imgs/avatar-2.jpg'
 import avatar3 from '../assets/imgs/avatar-3.jpg'
+import Post from '../Blog/Post.jsx'
+import rest__logo from '../assets/icons/restourant__logo.svg'
+
 
 
 export default function Home() {
@@ -37,13 +40,13 @@ export default function Home() {
       {/* <BlogHeader arrow={Arrow}/> */}
       {/* <Articles img1={Blogs1} img2={Blogs2} img3={Blogs3} img4={Blogs4} search={search} facebook={Facebook} insta={insta} twitter={Twitter} right_pic={blog__left}/> */}
       {/* <Footer spoon={History__spoon1} face={Facebook} insta={insta} twitter={Twitter}/> */}
-
       {/* <Navbar line={line}/> */}
       {/* <BlogHeader arrow={Arrow}/> */}
       {/* <Articles img1={Blogs1} img2={Blogs2} img3={Blogs3} img4={Blogs4} search={search} facebook={Facebook} insta={insta} twitter={Twitter} right_pic={blog__left}/> */}
       {/* <Footer spoon={History__spoon1} face={Facebook} insta={insta} twitter={Twitter}/> */}
       {/* <Detail background={detail__pic} background2={detail__pic2} up={up} down={down} background3={detail__pic3} chat={chat} favorite={favorite} search={search} right_pic={blog__left} facebook={Facebook} insta={insta} twitter={Twitter}/> */}
-      <Comments avatar1={avatar1} avatar2={avatar2} avatar3={avatar3} />
+      {/* <Comments avatar1={avatar1} avatar2={avatar2} avatar3={avatar3} /> */}
+      {/* <Post logo={rest__logo}/> */}
     </>
   )
 }
