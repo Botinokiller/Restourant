@@ -2,6 +2,10 @@ import React from 'react'
 
 export default function header() {
   return (
-    <section>header</section>
+    <section className='header'>
+        <div className='header__container'>
+            
+        </div>
+    </section>
   )
 }
