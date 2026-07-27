@@ -7,6 +7,8 @@ import History from '../About/history'
 import History__pic1 from '../assets/imgs/About__history-1.jpg'
 import History__pic2 from '../assets/imgs/About__history-2.jpg'
 import Liner from '../assets/icons/Liner.svg'
+import About from '../About/aboutus'
+import Video from '../assets/video/video.mp4'
 
 
 
@@ -15,6 +17,7 @@ export default function Home() {
     <>
     {/* <Header arrow={arrow}/> */}
     <History spoon1={History__spoon1} pic__1={History__pic1} pic__2={History__pic2} liner={Liner} />
+    <About spoon1={History__spoon1} video={Video}/>
     </>
   )
 }
