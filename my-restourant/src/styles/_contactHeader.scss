@@ -1,7 +1,11 @@
 .contact-header{
 
     &__container{
-        
+        background: url('../assets/imgs/');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 84vh;
     }
 
 }
