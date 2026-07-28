@@ -49,7 +49,6 @@ export default function awards({spoon,second,first,third,fifth,food,G}) {
                         <img src={food} alt="" />
                     </div>
                     <img src={G} alt="" className='absolute bottom-0 right-30' />
-
                 </div>
 
             </div>
