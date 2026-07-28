@@ -50,9 +50,9 @@ function App() {
 
   return (
     <>
-    <Navbar line={line}/>
+    {/* <Navbar line={line}/> */}
     {/* <Header spoon={header__spoon} header={Header__img}/> */}
-    {/* <History spoon={History__spoon} spoon1={History__spoon1} knife={History__knife}/> */}
+    <History spoon={History__spoon} spoon1={History__spoon1} knife={History__knife}/>
     {/* <Book spoon={History__spoon1}/> */}
     {/* <Menu /> */}
     {/* <Special middle={special__middle} spoon={History__spoon1}/> */}

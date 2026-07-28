@@ -8,7 +8,7 @@ export default function history({spoon,spoon1,knife}) {
     <section className='history '>
         <div className='history__container '>
             <div className='history__container-1 mx-auto pt-15 pb-15 h-full'>
-                <div className='history__container-2 G flex items-center gap-15'>
+                <div className='history__container-2 flex items-center gap-15 px-20'>
                         <div className='history__about '>
                             <div className='history__block mb-3 w-full flex flex-col items-end'>
                                 <h2 className='history__title-1 mb-2'>About Us</h2>

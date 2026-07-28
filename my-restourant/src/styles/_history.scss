@@ -20,6 +20,39 @@
         background-size:50vh;
         width: 100%;
         // background-size: 350px;
+
+        @include desktop-lg{
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        @include desktop{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        @include tablet{
+            padding-left: 20px;
+            padding-right: 20px;
+            gap: 36px;
+        }
+
+        @include mobile{
+            padding-left: 10px;
+            padding-right: 10px;
+            gap: 20px;
+        }
+
+        @include mini{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+
+    &__knife{
+        @include mini{
+            display: none;
+        }
     }
 
     &__title-1{
@@ -31,6 +64,13 @@
         text-transform: capitalize;
         text-align: right;
         color: #dcca87;
+        
+        @include tablet{
+            font-size: 50px;
+        }
+        @include mobile{
+            font-size: 35px;
+        }
     }
     &__text-1{
         font-family: var(--second-family);
@@ -40,6 +80,14 @@
         letter-spacing: 0.04em;
         text-align: right;
         color: #aaa;
+
+        @include desktop{
+            font-size: 14px;
+
+        }
+        @include mobile{
+            margin-bottom: 20px;
+        }
     }
 
     &__btn-1{
@@ -60,6 +108,13 @@
         letter-spacing: 0.03em;
         text-transform: capitalize;
         color: #dcca87;
+
+        @include tablet{
+            font-size: 50px;
+        }
+        @include mobile{
+            font-size: 35px;
+        }
     }
 
     &__text{
@@ -69,6 +124,13 @@
         line-height: 175%;
         letter-spacing: 0.04em;
         color: #aaa;
+
+        @include desktop{
+            font-size: 14px;
+        }
+        @include mobile{
+            margin-bottom: 20px;
+        }
     }
 
     &__btn{

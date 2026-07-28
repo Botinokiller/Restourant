@@ -7,7 +7,43 @@
 
     &__container{
         background-color: black;
+        
+        @include desktop{
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+        @include tablet{
+            padding-left: 5px;
+            padding-right: 5px;
+            display: flex;
+            justify-content: none;
+            gap: 20px;
+        }
+        @include mobile{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
     }
+
+    &__list{
+        @include tablet{
+            display: flex;
+            gap: 10px;
+        }
+
+        @include mobile{
+            gap: 15px;
+        }
+        @include mini{
+            gap: 10px;
+        }
+    }
+
+
+
+
 
 
     &__logo{
@@ -19,6 +55,16 @@
         text-transform: uppercase;
         text-align: center;
         color: var(--ffffff);
+
+        @include tablet{
+            font-size: 35px;
+        }
+
+        @include mobile{
+            font-size: 40px;
+        }
+
+
     }
     &__item{
         font-family: var(--second-family);
@@ -27,6 +73,10 @@
         line-height: 175%;
         letter-spacing: 0.04em;
         color: var(--ffffff);
+
+        @include tablet{
+            font-size: 14px;
+        }
     }
     &__login{
         font-family: var(--second-family);
@@ -36,6 +86,10 @@
         letter-spacing: 0.05em;
         text-transform: capitalize;
         color: var(--ffffff);
+
+        @include tablet {
+            font-size: 14px;
+        }
     }
     &__book{
         font-family: var(--second-family);
@@ -45,8 +99,15 @@
         letter-spacing: 0.05em;
         text-transform: capitalize;
         color: var(--ffffff);
+        @include tablet{
+            font-size: 14px;
+        }
     }
+
     &__contacts{
+        @include mini{
+            gap: 12px;
+        }
     }
 }
 
