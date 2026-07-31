@@ -48,6 +48,7 @@ import ReactDOM from 'react-router-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import {Routes,Route} from 'react-router-dom';
 
+import Contact from './Contact/Contact.jsx'
 
 import App from './App';
 import Arrow from './assets/icons/Blogs__arrow.svg'
