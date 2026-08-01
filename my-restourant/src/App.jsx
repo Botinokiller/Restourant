@@ -44,30 +44,29 @@ import Footer from './Components/footer.jsx';
 import Facebook from './assets/icons/facebook.svg'
 import insta from './assets/icons/insta.svg'
 import Twitter from './assets/icons/twitter.svg'
-import ReactDOM from 'react-router-dom/client';
+// import ReactDOM from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom';
 import {Routes,Route} from 'react-router-dom';
-
+// import { Link } from "react-router-dom";
 import Contact from './Contact/Contact.jsx'
-
-import App from './App';
+import About from './About/About.jsx'
+// import App from './App';
 import Arrow from './assets/icons/Blogs__arrow.svg'
 import search from '../src/assets/icons/articles__search.svg'
 import blog__left from '../src/assets/imgs/Blog__left.jpg'
 import Articles from './Blog/Articles.jsx';
-import Home from './Blog/Home.jsx'
+import Blog from './Blog/Home.jsx'
 import rest__logo from './assets/icons/restourant__logo.svg'
-
+import Home from './Home/Mainhome.jsx'
 
 function App() {
 
   return (
     <>
 
-    <Routes>
-      {/* <Navbar line={line}/> */}
+      <Navbar line={line}/>
       {/* <Header spoon={header__spoon} header={Header__img}/> */}
-      <History spoon={History__spoon} spoon1={History__spoon1} knife={History__knife}/>
+      {/* <History spoon={History__spoon} spoon1={History__spoon1} knife={History__knife}/> */}
       {/* <Book spoon={History__spoon1}/> */}
       {/* <Menu /> */}
       {/* <Special middle={special__middle} spoon={History__spoon1}/> */}
@@ -79,7 +78,6 @@ function App() {
       {/* <News spoon={History__spoon1}/> */}
       {/* <Footer  spoon={History__spoon1} face={Facebook} insta={Insta} twitter={Twitter} /> */}
       
-    </Routes>
     
     {/* <Navbar line={line}/> */}
     {/* <Header spoon={header__spoon} header={Header__img}/> */}
@@ -97,7 +95,19 @@ function App() {
     {/* <Articles img1={Blogs1} img2={Blogs2} img3={Blogs3} img4={Blogs4} search={search} facebook={Facebook} insta={insta} twitter={Twitter} right_pic={blog__left}/> */}
     {/* <News spoon={History__spoon1}/> */}
     {/* <Footer spoon={History__spoon1} face={Facebook} insta={insta} twitter={Twitter}/> */}
-    <Home/>
+
+    {/* <Footer  spoon={History__spoon1} face={Facebook} insta={Insta} twitter={Twitter} /> */}
+    
+
+    <Routes>
+      <Route path="/home" element={<Home/>}/>
+      <Route path="/about" element={<About/>}/>
+      <Route path="/blog" element={<Blog/>}/>
+      <Route path='/contact' element={<Contact/>}/>
+
+    </Routes>
+
+    
     </>
   )
 }

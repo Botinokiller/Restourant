@@ -1,5 +1,4 @@
 import React from 'react'
-// import Navbar from '../Components/navbar.jsx'
 import Navbar from '../Components/navbar.jsx'
 import line from '../assets/icons/navbar__line.svg'
 import BlogHeader from '../Blog/blogHeader.jsx'
@@ -31,7 +30,7 @@ import avatar3 from '../assets/imgs/avatar-3.jpg'
 import Post from '../Blog/Post.jsx'
 import rest__logo from '../assets/icons/restourant__logo.svg'
 
-import ReactDOM from 'react-router-dom/client';
+import ReactDOM from "react-dom/client";
 import { BrowserRouter } from 'react-router-dom';
 import {Routes,Route} from 'react-router-dom';
 
@@ -43,17 +42,17 @@ export default function Home() {
     <Routes>
       
     </Routes>
-      <Navbar line={line}/>
+      {/* <Navbar line={line}/> */}
       {/* <Articles img1={Blogs1} img2={Blogs2} img3={Blogs3} img4={Blogs4} search={search} facebook={Facebook} insta={insta} twitter={Twitter} right_pic={blog__left}/> */}
       {/* <Footer spoon={History__spoon1} face={Facebook} insta={insta} twitter={Twitter}/> */}
       {/* <Navbar line={line}/> */}
-      {/* <BlogHeader arrow={Arrow}/> */}
-      {/* <Articles img1={Blogs1} img2={Blogs2} img3={Blogs3} img4={Blogs4} search={search} facebook={Facebook} insta={insta} twitter={Twitter} right_pic={blog__left}/> */}
-      {/* <Footer spoon={History__spoon1} face={Facebook} insta={insta} twitter={Twitter}/> */}
-      {/* <Detail background={detail__pic} background2={detail__pic2} up={up} down={down} background3={detail__pic3} chat={chat} favorite={favorite} search={search} right_pic={blog__left} facebook={Facebook} insta={insta} twitter={Twitter}/> */}
-      {/* <Comments avatar1={avatar1} avatar2={avatar2} avatar3={avatar3} /> */}
-      {/* <Post logo={rest__logo}/> */}
       <BlogHeader arrow={Arrow}/>
+      <Articles img1={Blogs1} img2={Blogs2} img3={Blogs3} img4={Blogs4} search={search} facebook={Facebook} insta={insta} twitter={Twitter} right_pic={blog__left}/>
+      <Footer spoon={History__spoon1} face={Facebook} insta={insta} twitter={Twitter}/>
+      <Detail background={detail__pic} background2={detail__pic2} up={up} down={down} background3={detail__pic3} chat={chat} favorite={favorite} search={search} right_pic={blog__left} facebook={Facebook} insta={insta} twitter={Twitter}/>
+      <Comments avatar1={avatar1} avatar2={avatar2} avatar3={avatar3} />
+      <Post logo={rest__logo}/>
+      {/* <BlogHeader arrow={Arrow}/> */}
 
     </>
   )

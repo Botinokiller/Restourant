@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/_history.scss'
+import { Link } from 'react-router-dom'
 
 
 export default function history({spoon,spoon1,knife}) {
@@ -9,7 +10,7 @@ export default function history({spoon,spoon1,knife}) {
         <div className='history__container '>
             <div className='history__container-1 mx-auto pt-15 pb-15 h-full'>
                 <div className='history__container-2 flex items-center gap-15 px-20'>
-                        <div className='history__about '>
+                        <div className='history__about'>
                             <div className='history__block mb-3 w-full flex flex-col items-end'>
                                 <h2 className='history__title-1 mb-2'>About Us</h2>
                                 <span className='history__spoon '><img src={spoon} alt="" /></span>
@@ -21,7 +22,7 @@ export default function history({spoon,spoon1,knife}) {
                                     In sed odio nec aliquet eu proin mauris et.
                                 </p>
                                 <div className='history__button w-full flex justify-end'>
-                                    <button className='history__btn-1 py-2 px-7'>Know More</button>
+                                    <button className='history__btn-1 py-2 px-7'><Link to='/about'>Learn More</Link></button>
                                 </div>
                             </div>
                         </div>
@@ -39,7 +40,7 @@ export default function history({spoon,spoon1,knife}) {
                                     Risus placerat morbi volutpat habitasse interdum mi aliquam In sed odio nec aliquet.
                                 </p>
                                 <div className='history__button'>
-                                    <button className='history__btn py-2 px-7'>Know More</button>
+                                    <button className='history__btn py-2 px-7'><Link to='/contact'>Learn More</Link></button>
                                 </div>
                             </div>
                         </div>
