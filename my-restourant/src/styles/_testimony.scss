@@ -1,7 +1,56 @@
-.testimony{
+@use 'variables' as *;
+@use 'fonts' as *;
+@use 'breakpoints' as *;  
+  
+  .testimony{
 
    &__container{
      background: black;
+   }
+
+   &__img{
+
+    @include desktop-lg{
+      min-width: 80px;
+    }
+
+   }
+
+   &__grid{
+    
+    @include desktop{
+      padding-left: 10px;
+      padding-right: 50px;
+    }
+    
+    @include tablet{
+      padding-left: 10px;
+      padding-right: 5px;
+    }
+    @include mobile{
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+   }
+
+   &__grids{
+
+    @include desktop-lg{
+      padding-left: 10px;
+      padding-right: 10px;
+      display: grid;
+      gap: 30px;
+    }
+
+    @include desktop{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+    @include mobile{
+      display: grid;
+      gap: 40px;
+    }
+
    }
 
    &__subtitle{
@@ -22,6 +71,13 @@
     letter-spacing: 0.03em;
     text-transform: capitalize;
     color: #dcca87;
+
+    @include mobile{
+      font-size: 45px;
+    }
+    @include mini{
+      font-size: 40px;
+    }
    }
 
 
@@ -33,6 +89,16 @@
     line-height: 175%;
     letter-spacing: 0.04em;
     color: #aaa;
+
+    @include desktop-lg{
+      font-size: 14px;
+    }
+
+    @include mobile{
+      margin-bottom: 8px;
+      font-size: 12px;
+    }
+
    }
 
    &__names{
@@ -43,6 +109,13 @@
     letter-spacing: 0.04em;
     text-transform: capitalize;
     color: #dcca87;
+
+    @include desktop-lg{
+      font-size: 28px;
+    }
+    @include mobile{
+      font-size: 24px;
+    }
    }
 
    &__position{
@@ -52,5 +125,12 @@
     line-height: 175%;
     letter-spacing: 0.04em;
     color: #f5efdb;
+
+    @include desktop-lg{
+      font-size: 14px;
+    }
+    @include mobile{
+      font-size: 12px;
+    }
    }
 }

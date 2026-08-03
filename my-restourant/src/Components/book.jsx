@@ -7,7 +7,7 @@ export default function Book({spoon}) {
   return (
     <section className='book w-full'>
         <div className='book__container w-full p-30'>
-            <div className='book__block  w-full mx-auto flex flex-col items-center p-10 '>
+            <div className='book__block  w-full mx-auto flex flex-col items-center py-10 '>
                 <div className='book__script'>
                     <p className='book__text mb-2'>Reservations</p>
                     <span className='book__spoon w-full flex justify-center mb-2'><img src={spoon} alt="" /></span>

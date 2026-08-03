@@ -1,3 +1,8 @@
+@use 'variables' as *;
+@use 'fonts' as *;
+@use 'breakpoints' as *;
+
+
 .awards{
 
     &__container{
@@ -5,7 +10,77 @@
     }
     &__overlay{
         background: url('../assets/icons/history__opacity.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+
+
+        @include desktop-lg{
+            display: flex;
+            margin: 0 auto;
+            justify-content: space-between;
+        }
+
+        @include desktop{
+            padding-left: 40px;
+            padding-right: 40px;
+            display: flex;
+            gap: 60px;
+            flex-direction: column;
+        }
+
+        @include tablet{
+            padding-left: 65px;
+            padding-right: 20px;
+        }
+        @include mobile{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        @media (max-width:850px){
+
+        }
     }
+
+
+
+    &__grids{
+
+        @include desktop-lg{
+            display: grid;
+            gap: 28px;
+            grid-template-columns: repeat(1,1fr);
+        }
+        @include desktop{
+        }
+    }
+
+    &__g{
+        right: 120px;
+
+        @include desktop{
+            right: 60px;
+        }
+        @include mobile{
+            right: 10px;
+        }
+    }
+
+    
+    &__grid{
+
+        @include desktop-lg{
+            display: flex;
+            gap: 28px;
+        }
+    }
+
+
+
+
+
 
 
 
@@ -33,7 +108,28 @@
         letter-spacing: 0.03em;
         text-transform: capitalize;
         color: #dcca87;
+
+        @include desktop-lg{
+            padding-bottom: 50px;
+        }
+        @include desktop{
+            padding-bottom: 25px;
+        }
     }
+
+    &__right {
+    flex-shrink: 0;
+    }
+
+    &__figure {
+    position: relative;   
+    display: inline-block; 
+    }
+
+    &__food{
+        min-width: 80%;
+    }
+
 
     &__script{
 
@@ -53,6 +149,13 @@
         line-height: 175%;
         letter-spacing: 0.04em;
         color: #aaa;
+        }
+
+        @include desktop{
+            padding: 0px 50px;
+        }
+        @include tablet{
+            padding: 0px 10px;
         }
     }
 }

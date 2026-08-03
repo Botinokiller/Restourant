@@ -4,13 +4,13 @@ export default function chief({chiefs,spoon,dot}) {
   return (
     <section className='chief'>
         <div className='chief__container'>
-            <div className='chief__overlay flex w-full gap-20 justify-center   py-25'>
+            <div className='chief__overlay flex w-full gap-20 px-5 justify-center py-25'>
 
                 <div className='chief__img'>
                     <img src={chiefs} alt="" />
                 </div>
 
-                <div className='chief__block pt-20'>
+                <div className='chief__block pt-20 '>
                     <div className='chief__top mb-10'>
                         <div className='chief__background'></div>
                         <h1 className='chief__words'>Chef’s Word</h1>
@@ -19,9 +19,10 @@ export default function chief({chiefs,spoon,dot}) {
                     </div>
                     <div className='chief__middle mb-15'>
                         <h2 className='chief__text flex items-end flex gap-2'><span className='chief__dots'><img src={dot} alt="" /></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .</h2>
-                        <p className='chief__subtext '>
-                        auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla <br /> scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. <br />Congue iaculis integer curabitur semper sit nunc.                        
-                        </p>
+                        <p className='chief__subtext'>auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.Nulla</p>
+                        <p className='chief__subtext'>scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu.</p>
+                        <p className='chief__subtext'>Congue iaculis integer curabitur semper sit nunc.</p>
+                        
                     </div>
 
                     <div className='chief__bottom'>

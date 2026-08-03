@@ -46,9 +46,9 @@ export default function awards({spoon,second,first,third,fifth,food,G}) {
                 </div>
                 <div className='awards__right relative'>
                     <div className='awards__img'>
-                        <img src={food} alt="" />
+                        <img src={food} className='awards__food' alt="" />
                     </div>
-                    <img src={G} alt="" className='absolute bottom-0 right-30' />
+                    <img src={G} alt="" className='awards__g absolute bottom-0 right-30' />
                 </div>
 
             </div>

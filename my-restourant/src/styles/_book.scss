@@ -6,6 +6,33 @@
     background: #0c0b08;
 
     &__container{
+
+        @include mobile{
+            padding: 60px;
+        }
+        @include tablet{
+            padding: 60px;
+        }
+
+        @include mobile{
+            padding: 5px;
+        }
+    }
+
+
+    &__filler{
+        padding-left: 10px;
+        padding-right: 10px;
+
+        @include tablet{
+            display: flex;
+            gap: 15px;
+            flex-direction: column;
+        }
+        @include mobile{
+            display: flex;
+            flex-direction: column;
+        }
     }
 
     &__text{
@@ -28,6 +55,10 @@
         text-transform: capitalize;
         text-align: center;
         color: #dcca87;
+
+        @include tablet{
+            font-size: 50px;
+        }
     }
 
 
@@ -50,6 +81,9 @@
         text-transform: capitalize;
         text-align: center;
         color: #aaa;
+
+
+
     }
 
     &__block{
@@ -85,6 +119,20 @@ input[type="date"].booking__select {
 //   appearance: none;
 //   -webkit-appearance:chevron;
   color: rgba(255, 255, 255, 0.6);
+
+          @include desktop{
+            width: 100%;
+            padding: 14px 30px;
+        }
+
+        @media (max-width:1200px){
+            width: 100%;
+            padding: 14px 40px;
+        }
+        @include tablet{
+            width: 100%;
+            padding: 14px 50px;
+        }
 
 
   &::-webkit-calendar-picker-indicator {

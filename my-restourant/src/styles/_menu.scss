@@ -5,7 +5,10 @@
 
 .menu{
     background: url(../assets/imgs/menu__background.jpg);
-
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
     &__container{
         background: #0c0c0c;
         opacity: 0.4;
@@ -20,6 +23,16 @@
         text-transform: capitalize;
         color: var(--ffffff);
         transition: color 0.3s ease;
+
+        @include tablet{
+            font-size: 50px;
+        }
+        @include mobile{
+            font-size: 40px;
+        }
+        @include mini{
+            font-size: 35px;
+        }
 
         &:hover{
             border-bottom: 1px solide white;

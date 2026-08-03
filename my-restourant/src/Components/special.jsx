@@ -6,11 +6,12 @@ import '../styles/_special.scss'
 
 export default function({middle,spoon}) {
   return (
-    <section className='special pt-20'>
-        <div className='special__container '>
+    <section className='special pt-15'>
+
+        <div className='special__container pb-5 '>
             <div className='special__script flex  flex-col items-center w-full'>
-                <h1 className='special-title'>Menu that fits You Palatte</h1>
-                <span className='special-span flex justify-center'><img src={spoon} alt="" /></span>
+                <h1 className='special-title mb-1'>Menu that fits You Palatte</h1>
+                <span className='special-span flex justify-center mb-2'><img src={spoon} alt="" /></span>
                 <h2 className='special-text'>Today's Special</h2>
             </div>
             <div className='special__block w-full justify-center flex gap-10 mb-10'>
@@ -58,7 +59,7 @@ export default function({middle,spoon}) {
                     </div>
                 </div>
             <div className='special__img'>
-                <img src={middle} alt="" /> 
+                <img src={middle}  className='special__img1' alt="" /> 
             </div>
                 <div className='special__wines'>
                     <h2 className='special__wines-title'>Cocktails</h2>

@@ -16,6 +16,15 @@
         color: var(--ffffff);
     }
 
+    &__script{
+        @include desktop-lg{
+            margin-bottom: 56px;
+        }
+        @include desktop{
+            margin-bottom: 56px;
+        }
+    }
+
     &__title{
         font-family: var(--font-family);
         font-weight: 600;
@@ -37,10 +46,26 @@
         color: #fafafa;
         display: flex;
         justify-content: space-between;
+
+        @include desktop{
+            font-size: 14px;
+        }
+        @include desktop{
+            font-size: 12px;
+        }
     }
 
+
+
     &__top{
-        margin-bottom: 20px;
+        
+        @include desktop{
+            margin-bottom: 20px;
+        }
+        @include tablet{
+            margin-bottom: 15px;
+        }
+
     }
 
     &__top-span{
@@ -50,7 +75,19 @@
         line-height: 175%;
         letter-spacing: 0.04em;
         color: #fafafa;
+
+        @include desktop{
+            font-size: 14px;
+        }
+
+        @include tablet{
+            font-size: 12px;
+        }
+
+
     }
+
+
 
     &__bottom{
         &-title{
@@ -62,6 +99,19 @@
             text-transform: capitalize;
             color: #dcca87;
             margin-bottom: 32px;
+
+            @include desktop-lg{
+                margin-bottom: 26px;
+                font-size: 30px;
+            }
+            @include desktop{
+                margin-bottom: 20px;
+                font-size: 23px;
+            }
+            @include tablet{
+                margin-bottom: 15px;
+                font-size: 18px;
+            }
         }
 
         &-text{
@@ -72,7 +122,40 @@
             letter-spacing: 0.04em;
             color: #aaa;
             margin-bottom: 20px;
+
+            @include desktop{
+                font-size: 14px;
+            }
+            @include tablet{
+            font-size: 12px;
+            margin-bottom: 13px;
+            }
+            
         }
+    }
+
+    &__blocks{
+
+        @include desktop-lg{
+            padding:0 100px ;
+        }
+        @include desktop{
+            padding:0 30px;
+        }
+        @include tablet{
+            padding:0 30px;
+                        display: flex;
+            flex-direction: column;
+        }
+        @include mobile{
+
+            padding:0 20px;
+        }
+
+    }
+
+    &__block-img{
+        width: 100%;
     }
 
     &__link{
@@ -82,6 +165,10 @@
         line-height: 175%;
         letter-spacing: 0.04em;
         color: #dcca87;
+
+        @include tablet{
+            font-size: 14px;
+        }
     }
 
     &__block-img{
