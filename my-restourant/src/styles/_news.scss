@@ -7,6 +7,22 @@
 
     padding: 64px 252px;
 
+    @include desktop-lg{
+        padding: 65px 190px;
+    }
+    @include desktop{
+        padding: 65px 100px;
+    }
+    @include tablet{
+        padding: 65px 70px;
+    }
+    @include mobile{
+        padding: 65px 25px;
+    }
+    @include mobile{
+        padding: 65px 10px;
+    }
+
 
 
     &__script{
@@ -17,6 +33,10 @@
         letter-spacing: 0.04em;
         text-transform: capitalize;
         color: var(--ffffff);
+
+        @include tablet{
+            margin-bottom: 30px;
+        }
     }
 
 
@@ -28,6 +48,20 @@
         letter-spacing: 0.03em;
         text-transform: capitalize;
         color: #dcca87;
+
+        @include desktop-lg{
+            font-size: 55px;
+        }
+        @include desktop{
+            font-size: 45px;
+        }
+        @include tablet{
+            font-size: 35px;
+            padding: 0 0px;
+        }
+        @include mobile{
+            font-size: 29px;
+        }
     }
 
     &__subtext{
@@ -43,6 +77,14 @@
         border: 1px solid rgba(220, 202, 135, 0.2);
         box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
         background: #0c0c0c;
+    }
+
+    &__blocks{
+        padding: 0 150px;
+
+        @include tablet{
+            padding: 0 70px;
+        }
     }
 
 

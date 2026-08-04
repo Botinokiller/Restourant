@@ -9,7 +9,7 @@ export default function footer({spoon,face,insta,twitter}) {
             <div className='footer__overlay py-25'>
                 <div className='footer__blocks justify-between w-full px-20 mb-15 items-center gap-10  flex'>
                     <div className="footer__block-1 flex flex-col items-center">
-                        <h2 className='footer__title mb-6'>Contact Us</h2>
+                        <h2 className='footer__title mb-4'>Contact Us</h2>
                         <p className='footer__address mb-2'>9 W 53rd St, New York, NY 10019, USA</p>
                         <p className='footer__phone'>+1 212-344-1230</p>
                         <p className='footer__phone'>+1 212-344-1230</p>

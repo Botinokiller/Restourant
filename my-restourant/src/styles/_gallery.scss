@@ -1,9 +1,30 @@
+@use 'variables' as *;
+@use 'fonts' as *;
+@use 'breakpoints' as *;
+
+
 .gallery{
     &__layout{
         background: url('../assets/imgs/history__background.jpg');
 
         &-1{
             background: url('../assets/icons/history__opacity.svg');
+
+            
+            @include desktop{
+                display: flex;
+                flex-direction: column;
+            }
+            @include tablet{
+                display: flex;
+                flex-direction: column;
+                padding: 0 30px;
+            }
+            @include mobile{
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+            }
         }
     }
 
@@ -25,6 +46,13 @@
         letter-spacing: 0.03em;
         text-transform: capitalize;
         color: #dcca87;
+
+        @media (max-width:1210px){
+            font-size: 50px;
+        }
+        @include tablet{
+            font-size: 40px;
+        }
     }
 
     &__subtext{
@@ -34,6 +62,10 @@
         line-height: 175%;
         letter-spacing: 0.04em;
         color: #aaa;
+
+        @include mobile{
+            font-size: 14px;
+        }
     }
 
     &__btn{
@@ -72,7 +104,18 @@
     display: none;
   }
   -ms-overflow-style: none;
-  scrollbar-width: none;
+//   scrollbar-width: none;
+
+  @include tablet{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+  }
+  @include mobile{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+  }
 }
 
 

@@ -21,7 +21,7 @@ export default function awards({food,G}) {
                         <textarea className="message__textarea w-full px-5 py-4" placeholder="Message" rows={6}/>
                     </div>
 
-                    <div className="message__action">
+                    <div className="message__action w-full">
                         <button className="message__btn px-8 py-3" type="submit">
                         Subscribe
                         </button>
@@ -32,7 +32,7 @@ export default function awards({food,G}) {
                     <div className='message__img'>
                         <img src={food} alt="" />
                     </div>
-                    <img src={G} alt="" className='absolute bottom-0 right-30' />
+                    <img src={G} alt="" className='message__img2 absolute bottom-0 right-30' />
                 </div>
 
             </div>

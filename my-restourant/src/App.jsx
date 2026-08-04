@@ -58,6 +58,8 @@ import Articles from './Blog/Articles.jsx';
 import Blog from './Blog/Home.jsx'
 import rest__logo from './assets/icons/restourant__logo.svg'
 import Home from './Home/Mainhome.jsx'
+import Detailed from './ArticleDetailed/articledetailed.jsx'
+
 
 function App() {
 
@@ -104,7 +106,7 @@ function App() {
       <Route path="/about" element={<About/>}/>
       <Route path="/blog" element={<Blog/>}/>
       <Route path='/contact' element={<Contact/>}/>
-
+      <Route path='/detailed' element={<detailedArticles/>} />
     </Routes>
 
     

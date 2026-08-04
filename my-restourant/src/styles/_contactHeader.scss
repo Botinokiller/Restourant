@@ -10,6 +10,13 @@
         background-position: center;
         background-repeat: no-repeat;
         min-height: 84vh;
+
+        @include tablet{
+            min-height: 100vh;
+        }
+        @include mobile{
+            min-height: 60vh;
+        }
     }
 
     &-title{
@@ -20,7 +27,15 @@
         letter-spacing: 0.04em;
         text-transform: capitalize;
         color: #dcca87;
+
+        @include tablet{
+            font-size: 60px;
+        }
+        @include mobile{
+            font-size: 50px;
+        }
     }
+
     &-text{
         font-family: var(--font-family);
         font-weight: 700;
@@ -29,6 +44,10 @@
         letter-spacing: 0.04em;
         text-transform: capitalize;
         color: var(--ffffff);
+
+        @include tablet{
+            font-size: 20px;
+        }
     }
 
 }

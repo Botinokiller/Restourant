@@ -33,6 +33,10 @@
         letter-spacing: 0.03em;
         text-transform: capitalize;
         color: #dcca87;
+
+        @include tablet{
+            font-size: 45px;
+        }
     }
 
 
@@ -110,7 +114,7 @@
             }
             @include tablet{
                 margin-bottom: 15px;
-                font-size: 18px;
+                font-size: 30px;
             }
         }
 
@@ -128,6 +132,10 @@
             }
             @include tablet{
             font-size: 12px;
+            margin-bottom: 13px;
+            }
+            @include tablet{
+            font-size: 18px;
             margin-bottom: 13px;
             }
             
@@ -149,7 +157,7 @@
         }
         @include mobile{
 
-            padding:0 20px;
+            padding:0 30px;
         }
 
     }

@@ -1,3 +1,8 @@
+@use 'variables' as *;
+@use 'fonts' as *;
+@use 'breakpoints' as *;
+
+
 .map {
   padding: 100px auto;
   background: #000;
@@ -9,6 +14,15 @@
 
   &__container {
     z-index: 1;
+  }
+
+  &__frame{
+    @include desktop{
+      padding: 30px 60px;
+    }
+    @include mobile{
+      padding: 50px 40px;
+    }
   }
 
   &__embed {

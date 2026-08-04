@@ -1,5 +1,9 @@
 import React from 'react'
 import '../styles/_articles.scss'
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from 'react-router-dom';
+import { Link } from 'react-router-dom'
+
 
 
 export default function Articles({img1,img2,img3,img4,search,facebook,insta,twitter,right_pic}) {
@@ -69,7 +73,7 @@ export default function Articles({img1,img2,img3,img4,search,facebook,insta,twit
                 </div>
 
                 <div className='articles__button flex justify-center'>
-                    <button className='articles__block-btn flex justify-center'>View More</button>
+                    <button className='articles__block-btn flex justify-center'><Link to="/detailed" className="">View More</Link></button>
                 </div>
 
             </div>

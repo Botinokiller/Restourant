@@ -6,7 +6,7 @@ export default function Address() {
   return (
     <>
     <div className="map">
-      <div className="map__frame p-30">
+      <div className="map__frame px-30 py-30">
         <div className="map__border"></div>
         <div className="map__container">
           <iframe

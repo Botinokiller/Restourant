@@ -37,14 +37,14 @@ export default function Gallery({ spoon, img1, img2, img3, img4, img5 }) {
     <section className='gallery'>
       <div className='gallery__container'>
         <div className='gallery__layout'>
-          <div className='gallery__layout-1 flex gap-16 items-center px-25 py-30'>
+          <div className='gallery__layout-1 flex gap-16 items-center px-15 py-30'>
 
             <div className='gallery__block'>
               <div className='gallery__top'>
                 <p className='gallery__text'>Instagram</p>
                 <img src={spoon} alt="" />
                 <h2 className='gallery__title'>Photo Gallery</h2>
-                <p className='gallery__subtext'>
+                <p className='gallery__subtext mb-4'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.
                 </p>
